@@ -3,7 +3,7 @@
 
 int main() {
     // Write C code here
-    printf("Antonio Gomes dos Santos Neto \n faculdade: La Salle \n Curso: Analise e Desenvilvimento De Sistemas \n insc:202212136");
+    printf("Usuario gibhub:antonio9157\n Antonio Gomes dos Santos Neto \n faculdade: La Salle \n Curso: Analise e Desenvilvimento De Sistemas \n insc:202212136");
 {
         float num1,
               num2;
@@ -19,6 +19,8 @@ int main() {
             printf("'*' : multiplicao\n");
             printf("'/' : divisao\n");
             printf("'%%' : resto da divisao\n");
+            printf("'double' : raiz quadrada\n");
+            printf("'potenciação' : potenciação\n");
 
             printf("\nDigite seus numeros para calcular: depois aperte enter :)\n");
             printf("Exemplos: 1 + 1 ,  2.1 * 3.1\n");
@@ -29,7 +31,7 @@ int main() {
             scanf(" %c",&oper);
             scanf("%f", &num2);
 
-            system("cls || clear");
+         
 
             printf("Calculando: %.2f %c %.2f = ", num1,oper,num2);
 
@@ -58,6 +60,7 @@ int main() {
                 case '%':
                         printf("%d\n\n", (int)num1 % (int)num2);
                         break;
+                
 
                 default:
                         if(num1 != 0 && oper != '0' && num2 != 0)
